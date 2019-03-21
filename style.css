@@ -222,7 +222,7 @@ iframe {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/backgroundimage.jpg");
+	background-image: url("assets/images/wardrobe.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -442,7 +442,9 @@ iframe {
 
 
 /*WHY US*/
-
+.row{
+	justify-content: space-between;
+}
 #mu-why-us {
 	background-color: #fff;
 	float: left;
@@ -503,7 +505,7 @@ iframe {
 
 
 #mu-video {
-	background-image: url("assets/images/guy.jpg");
+	background-image: url("assets/images/duffus\ only\ with\ ce\ award\ NO\ Duffus.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -640,7 +642,7 @@ iframe {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/store\ ce\ award.jpg");
+	background-image: url("assets/images/IMG_2793\ cropped\ 2.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
