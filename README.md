@@ -6,4 +6,4 @@
 
 # To View the design:
     click on the link below to visit its gh pages
-   [view the design](https://alovega.github.io/ShoppingCart/)
+   [view the design](https://alovega.github.io/textiles/.)
