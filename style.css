@@ -265,7 +265,7 @@ iframe {
 .mu-logo-area {
 	display: inline;
 	float: left;
-	width: 50%;
+	width: 10%;
 }
 
 .mu-logo {
@@ -273,7 +273,7 @@ iframe {
 	font-family: 'Poppins', sans-serif;
 	display: inline-block;
 	font-weight: 700;
-	background: #fff;
+	/* background: #fff; */
 	max-width: 500px;
 }
 
