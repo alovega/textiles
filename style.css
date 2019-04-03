@@ -593,11 +593,22 @@ iframe {
 .mu-featured-tours-single {
 	background-color: #f8f8f8;
 	display: inline;
+	position: relative;
 	float: left;
 	width: 100%;
 	margin: 15px 0;
 }
-.mu-featured-tours-single img{
+.mu-featured-tours-single .bottom {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.mu-featured-tours-single:hover .bottom {
+	display: inline;
+}
+/* .mu-featured-tours-single img{
 	position: relative;
     float: left;
     width:  500px;
@@ -605,7 +616,7 @@ iframe {
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
-}
+} */
 
 .mu-featured-tours-single-info {
 	display: inline;
@@ -1082,7 +1093,7 @@ iframe {
 	.mu-featured-tours-single p {
 		font-size: 14px;
 	}
-	.mu-featured-tours-single img{
+	/* .mu-featured-tours-single img{
 		position: relative;
 		float: left;
 		width:  100px;
@@ -1090,7 +1101,7 @@ iframe {
 		background-position: 50% 50%;
 		background-repeat:   no-repeat;
 		background-size:     cover;
-	}
+	} */
 
 	.mu-featured-tours-single-info .mu-book-now-btn {
 		font-size: 14px;
