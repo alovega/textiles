@@ -1175,7 +1175,16 @@ background-color: #fff;
 		background-repeat:   no-repeat;
 		background-size:     cover;
 	} */
-
+	.mu-featured-tours-single .bottom {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 99;
+	}
+	.mu-featured-tours-single:hover .bottom {
+		display: inline;
+	}
 	.mu-featured-tours-single-info .mu-book-now-btn {
 		font-size: 14px;
 	}
