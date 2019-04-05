@@ -313,7 +313,7 @@ iframe {
 .mu-menu-nav {
 	position: fixed;
 	right: -1%;
-	top: 2px;
+	top: 0px;
 	z-index: 999;
 	/* display: inline; */
 	/* float: right; */
@@ -329,6 +329,7 @@ iframe {
 	top: 30px;
 	color: #fff;
 	font-size: 25px;
+	border-radius: 5%;
 	/* border: 2px solid #fff; */
 	padding: 5px 14px;
 	z-index: 996;
@@ -336,6 +337,16 @@ iframe {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
+#navbarcontent ul li{
+	list-style: none;
+	padding: 2%;
+}
+#navbarcontent ul li a {
+	font-weight: bold;
+	padding: 2%;
+
+}
+
 
 #navbarcontent ul li:hover,
 #navbarcontent ul li:hover {
@@ -1058,15 +1069,14 @@ background-color: #fff;
 
 @media (max-width: 1199px) {
 	#navbarcontent {
-		display: none;
+		display:none;
 		position: fixed;
 		background-color: #ff871c;
-		width: 10%;
-		right: 0.5%;
+		width: 50%;
+		right: 10%;
 		top: 10px;
 		color: #fff;
-		font-size: 10px;
-		font-weight: bold;
+		font-size: 25px;
 		/* border: 2px solid #fff; */
 		padding: 5px 14px;
 		z-index: 996;
@@ -1074,15 +1084,30 @@ background-color: #fff;
 		-o-transition: all 0.5s;
 		transition: all 0.5s;
 	}
+	#navbarcontent ul li{
+		list-style: none;
+		padding: 2%;
+	}
+	#closebtn{
+		float: right;
+		width:10%;
+		color: #000;
+	}
+	
+	#navbarcontent ul li a {
+		font-weight: bold;
+		padding: 2%;
+	
+	}
 	.mu-menu-nav {
 		position: fixed;
-		right: -1%;
-		top: 2px;
-		z-index: 999;
-		/* display: inline; */
-		/* float: right; */
-		text-align: left;
-		width: 30%;
+	    right: 17%;
+	    top: 0px;
+	    z-index: 999;
+	    /* display: inline; */
+	   /* float: right; */
+	   text-align: left;
+	   width: 10%;
 	}
 
 	.mu-about-right {

@@ -15,6 +15,13 @@
 	
 **/
 
+// close nav
+// function closeNav() {
+// 	document.getElementById("navbarcontent").style.width = "none";
+// }
+// function openNav() {
+//   document.getElementById("navbarcontent").style.display = "block";
+// }
 
 
 (function( $ ){
